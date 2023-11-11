@@ -1,6 +1,6 @@
 ﻿namespace HotelManagementAppLibrary.Databases
 {
-    internal interface ISqlDataAccess
+    public interface ISqlDataAccess
     {
         List<T> LoadData<T, U>(string sqlStatement,
                                U parameters,

@@ -11,7 +11,7 @@ using Microsoft.Extensions.Configuration;
 
 namespace HotelManagementAppLibrary.Databases
 {
-    internal class SqlDataAccess : ISqlDataAccess
+    public class SqlDataAccess : ISqlDataAccess
     {
         private readonly IConfiguration _configuration;
         public SqlDataAccess(IConfiguration configuration) => _configuration = configuration;
