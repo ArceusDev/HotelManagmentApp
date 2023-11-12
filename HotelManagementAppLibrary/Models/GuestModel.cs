@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace HotelManagementAppLibrary.Models
 {
-    public class RoomTypeModel
+    public class GuestModel
     {
         public int Id { get; set; }
-        public string Title { get; set; } = string.Empty;
-        public string Description { get; set; } = string.Empty;
-        public decimal Price { get; set; }
+        public string FirstName { get; set; } = string.Empty;
+        public string LastName { get; set; } = string.Empty;
     }
 }

@@ -4,7 +4,6 @@
 AS
 begin
 	set nocount on;
-
 	select t.Id, t.Title, t.Description, t.Price
 	from dbo.Rooms r
 	inner join dbo.RoomTypes t on t.Id = r.RoomTypeId
