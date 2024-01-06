@@ -1,2 +1,3 @@
 # HotelManagmentApp
- Hotel Managment Application using .NET technologies.
+ Hotel Management Application using .NET technologies.
+ 
